@@ -20,12 +20,12 @@ export default new Router({
       name: 'blog',
       component: Blog
     },
-    /*{
+    {
       path: '/blog/new',
       name: 'new-article',
       component: NewArticle
     },
-    {
+    /*{
       path: '/blog/edit/:article_id',
       name: 'edit-article',
       component: EditArticle

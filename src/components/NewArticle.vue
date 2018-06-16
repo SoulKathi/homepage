@@ -1,7 +1,7 @@
 <template>
     <div id="new-article">
         <h4 class="red-text text-darken-4">
-            New Article
+            Neuer Artikel
         </h4>
         <div class="row">
             <form @submit.prevent="saveArticle" class="col s12">

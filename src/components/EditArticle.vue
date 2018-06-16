@@ -1,7 +1,7 @@
 <template>
     <div id="edit-article">
         <h4 class="red-text text-darken-4">
-            Edit Article
+            Artikel bearbeiten
         </h4>
         <div class="row">
             <form @submit.prevent="updateArticle" class="col s12">
