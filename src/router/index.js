@@ -20,7 +20,7 @@ export default new Router({
       name: 'blog',
       component: Blog
     },
-    {
+    /*{
       path: '/blog/new',
       name: 'new-article',
       component: NewArticle
@@ -29,7 +29,7 @@ export default new Router({
       path: '/blog/edit/:article_id',
       name: 'edit-article',
       component: EditArticle
-    },
+    },*/
     {
       path: '/blog/:article_id',
       name: 'view-article',
