@@ -11,7 +11,7 @@
             <p>Mit dieser Seite möchte ich mich gerne vorstellen und ein wenig zeigen, was ich so mache. Schaut euch einfach mal um.</p>
             </div>
         <div class="col s4 right">
-    <img class="responsive-img" src="https://lh3.googleusercontent.com/ZPshdnfYNbhoz3K4KJiwewoNgHhlokxK8IOYpk3PCE2VQAWZRTCsGrhgD2LX0PQfRSeCWVzz93TF6vferg0CR_57G7nUxnln3AHEzVR9cewld1BAyIyTWEweizC9n7e3HLKaUlpBNw=w690-h919-no" alt="Selfhtml" height="400"/>
+    <img class="responsive-img" src="https://lh3.googleusercontent.com/ZPshdnfYNbhoz3K4KJiwewoNgHhlokxK8IOYpk3PCE2VQAWZRTCsGrhgD2LX0PQfRSeCWVzz93TF6vferg0CR_57G7nUxnln3AHEzVR9cewld1BAyIyTWEweizC9n7e3HLKaUlpBNw=w690-h919-no" alt="Selfhtml"/>
     </div>
     </div>
     </div>
