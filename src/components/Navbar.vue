@@ -11,6 +11,9 @@
                         <router-link to="/">Startseite</router-link>
                     </li>
                     <li>
+                        <router-link to="/about">Über mich</router-link>
+                    </li>
+                    <li>
                         <router-link to="/blog/">Blog</router-link>
                     </li>
                 </ul>

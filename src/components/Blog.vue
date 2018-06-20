@@ -19,23 +19,23 @@
                 </i>
             </div>
             <div class="col s3">
-                <!--<button @click="deleteArticle(article.article_id)" class="secondary-content red darken-4 btn-floating">
+                <button @click="deleteArticle(article.article_id)" class="secondary-content red darken-4 btn-floating">
                     <i class="fa fa-times"/>
                 </button>
                 <router-link class="secondary-content indigo darken-4 btn-floating" v-bind:to="{name: 'edit-article', params: {article_id: article.article_id}}">
                     <i class="fa fa-pencil"/>
-                </router-link>-->
+                </router-link>
                 <router-link class="secondary-content indigo darken-4 btn-floating" v-bind:to="{name: 'view-article', params: {article_id: article.article_id}}">
                     <i class="fa fa-eye"/>
                 </router-link>
             </div>
         </div> 
 
-        <!--<div class="fixed-action-btn">
+        <div class="fixed-action-btn">
             <router-link to="/blog/new" class="btn-floating btn-large red darken-4">
                 <i class="fa fa-plus"/>
             </router-link>
-        </div>-->
+        </div>
     </div>
 </template>
 
@@ -64,7 +64,7 @@ export default {
         })
     },
     methods: {
-        /*deleteArticle(article_id){
+        deleteArticle(article_id){
             if(confirm('Are your sure?')){
                 db.collection('articles').where('article_id', '==', article_id).get().then(querySnapshot => {
                     querySnapshot.forEach(doc => {
@@ -74,7 +74,7 @@ export default {
                     })
                 })
             }
-        }*/
+        }
     }
 }
 </script>

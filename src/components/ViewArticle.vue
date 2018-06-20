@@ -16,18 +16,18 @@
         </div>
         </div>
         <div class="indigo-text text-darken-4">
-            {{content}}
+            <span v-html="content"></span>
         </div>
         <div class="fixed-action-btn">
-            <!--<router-link v-bind:to="{name: 'edit-article', params:{article_id: article_id}}" class="btn-floating btn-large indigo darken-4">
+            <router-link v-bind:to="{name: 'edit-article', params:{article_id: article_id}}" class="btn-floating btn-large indigo darken-4">
                 <i class="fa fa-pencil"/>
-            </router-link>-->
+            </router-link>
             <router-link to="/blog/" class="btn-floating btn-large indigo darken-4">
                 <i class="fa fa-arrow-left"/>
             </router-link>
-            <!--<button @click="deleteArticle" class="btn-floating btn-large red darken-4">
+            <button @click="deleteArticle" class="btn-floating btn-large red darken-4">
                 <i class="fa fa-times"/>
-            </button>-->
+            </button>
         </div>
     </div>
 </template>
@@ -73,7 +73,7 @@ export default {
                 })
             })
         },
-        /*deleteArticle(){
+        deleteArticle(){
             if(confirm('Are your sure?')){
                 db.collection('articles').where('article_id','==',this.$route.params.article_id).get().then(querySnapshot => {
                 querySnapshot.forEach(doc => {
@@ -82,7 +82,7 @@ export default {
                 })
             })
             }
-        }*/
+        }
     }
 }
 </script>
